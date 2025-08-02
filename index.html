@@ -46,5 +46,24 @@
 
   <script src="tg.js"></script>
   <script src="script.js"></script>
+  
+<!-- Модальное окно оплаты -->
+<div class="modal-overlay" id="paymentModal">
+  <div class="payment-modal">
+    <h3>Купить стикер</h3>
+    <div class="modal-sticker">
+      <img id="modalStickerImg" src="" alt="Стикер">
+      <div>
+        <p id="modalStickerName"></p>
+        <p class="price" id="modalStickerPrice"></p>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="modal-btn cancel-btn" id="cancelPayment">Отмена</button>
+      <button class="modal-btn confirm-btn" id="confirmPayment">Оплатить ★</button>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
