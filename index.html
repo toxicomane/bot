@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stickers!</title>
+  
+  <!-- Подключение Nunito через Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Stickers!</h1>
+  </header>
+
+  <section class="top-banner">
+    <span class="top-label">🔥 Топ коллекции</span>
+    <article class="collection">
+      <img src="assets/images/first_start.png" alt="First Start Sticker Pack" class="avatar">
+      <div class="info">
+        <h2>First start!</h2>
+        <p>Мин. цена: <span class="price">99 ★</span></p>
+        <p>Общий объём: 5 000</p>
+        <p>Осталось: 5 000</p>
+      </div>
+    </article>
+  </section>
+
+  <nav class="tabs">
+    <button class="tab active" onclick="showStickers()">Стикеры</button>
+    <button class="tab" onclick="showMarket()">Маркет</button>
+  </nav>
+
+  <main class="content" id="content">
+    <!-- Контент будет подгружаться через JS -->
+  </main>
+
+  <footer class="navbar">
+    <button class="nav-btn active" onclick="goHome()">🏠 Главная</button>
+    <button class="nav-btn" onclick="goProfile()">👤 Профиль</button>
+  </footer>
+
+  <script src="tg.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
